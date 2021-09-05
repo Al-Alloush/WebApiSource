@@ -1,0 +1,233 @@
+﻿[
+  {
+    "Email": "emily@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Emily",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2001-07-26",
+    "PhoneNumber": "123456789",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "jessica@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Jessica.admin",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "74933489",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "robin@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Robin",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "126013636",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "judy@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Judy",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "226336833",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "johnny@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Johnny.admin",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "12223369",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "olive@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Olive.Editor",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "467484324256",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "norman@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Norman.Editor",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "9876456789",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "erik@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Erik",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "177777111189",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "olga@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Olga.Editor",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "87634443",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "caroline@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Caroline",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "98764464222",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "jaime@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Jaime",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "1473367888",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "kevin@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Kevin.admin",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "9999997654321",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "harvey@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Harvey",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "1223245267289",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "marian@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Marian",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "132345367839",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "raymond@gmail.com",
+    "EmailConfirmed": false,
+    "UserName": "Raymond",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "1623645667689",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "bobby@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Bobby",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "7123745767879",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "june@gmail.com",
+    "EmailConfirmed": false,
+    "UserName": "June",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "1623645667689",
+    "PhoneNumberConfirmed": false
+  },
+  {
+    "Email": "thomas@gmail.com",
+    "EmailConfirmed": false,
+    "UserName": "Thomas",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "7123745767879",
+    "PhoneNumberConfirmed": false
+  },
+  {
+    "Email": "jonathon@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Jonathon",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "1823848568789",
+    "PhoneNumberConfirmed": true
+  },
+  {
+    "Email": "melinda@gmail.com",
+    "EmailConfirmed": true,
+    "UserName": "Melinda",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "9129349569789",
+    "PhoneNumberConfirmed": false
+  },
+  {
+    "Email": "Laura@gmail.com",
+    "EmailConfirmed": false,
+    "UserName": "Laura",
+    "Password": "!QA1qa",
+    "ConfirmPassword": "!QA1qa",
+    "LanguageId": "de",
+    "Birthday": "2000-07-26",
+    "PhoneNumber": "0120345067089",
+    "PhoneNumberConfirmed": false
+  }
+]

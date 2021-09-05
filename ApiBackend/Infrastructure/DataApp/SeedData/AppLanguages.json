@@ -1,0 +1,56 @@
+﻿[
+  {
+    "Id": "en",
+    "Name": "English",
+    "LanguageDirection": "ltr",
+    "Added": true
+  },
+  {
+    "Id": "ar",
+    "Name": "العربية",
+    "LanguageDirection": "rtl",
+    "Added": true
+  },
+  {
+    "Id": "de",
+    "Name": "Deutsche",
+    "LanguageDirection": "ltr",
+    "Added": true
+  },
+  {
+    "Id": "fr",
+    "Name": "Français",
+    "LanguageDirection": "ltr",
+    "Added": false
+  },
+  {
+    "Id": "it",
+    "Name": "Italiana",
+    "LanguageDirection": "ltr",
+    "Added": false
+  },
+  {
+    "Id": "es",
+    "Name": "español",
+    "LanguageDirection": "ltr",
+    "Added": false
+  },
+  {
+    "Id": "nl",
+    "Name": "Nederlands",
+    "LanguageDirection": "ltr",
+    "Added": false
+  },
+  {
+    "Id": "sv",
+    "Name": "svenska",
+    "LanguageDirection": "ltr",
+    "Added": false
+  },
+  {
+    "Id": "tr",
+    "Name": "Türk",
+    "LanguageDirection": "ltr",
+    "Added": false
+  }
+]

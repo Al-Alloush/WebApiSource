@@ -1,0 +1,85 @@
+<app-breadcrumb [title]="'contact'" [breadcrumb]="'contact'"></app-breadcrumb>
+<!--section start-->
+<section class=" contact-page section-b-space">
+    <div class="container">
+        <div class="row section-b-space"*ngIf="sharedData">
+            <div class="col-lg-7 map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d50059.12775918716!2d72.78534673554945!3d21.16564923510817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1533793756956"   allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-5">
+                <div class="contact-right">
+                    <ul>
+                        <li *ngIf="sharedData.phoneNumber">
+                            <div class="contact-icon">
+                                <img src="assets/images/icon/phone.png" alt="Generic placeholder image">
+                                <h6>Contact Us</h6>
+                            </div>
+                            <div class="media-body">
+                                <p>{{sharedData.phoneNumber}}</p>
+                            </div>
+                        </li>
+                        <li *ngIf="sharedData.address">
+                            <div class="contact-icon">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <h6>Address</h6>
+                            </div>
+                            <div class="media-body">
+                                <p>{{sharedData.address}}</p>
+                            </div>
+                        </li>
+                        <li *ngIf="sharedData.email">
+                            <div class="contact-icon">
+                                <img src="assets/images/icon/email.png" alt="Generic placeholder image">
+                                <h6>Address</h6>
+                            </div>
+                            <div class="media-body">
+                                <p>{{sharedData.email}}</p>
+                            </div>
+                        </li>
+                        <li *ngIf="sharedData.fax">
+                            <div class="contact-icon">
+                                <i class="fa fa-fax" aria-hidden="true"></i>
+                                <h6>Fax</h6>
+                            </div>
+                            <div class="media-body">
+                                <p>{{sharedData.fax}}</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <form class="theme-form" [formGroup]="visitorMsgForm" (ngSubmit)="onSubmitVisitorMsg()">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <label for="name">{{"first-name" | translate}}</label>
+                            <input type="text" class="form-control" formControlName="firstName" placeholder="{{'first-name' | translate}}" >
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email">{{"last-name" | translate}}</label>
+                            <input type="text" class="form-control" formControlName="lastName" placeholder="{{'last-name' | translate}}" >
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phone-number">{{"phone-number" | translate}}</label>
+                            <input type="text" class="form-control" formControlName="phoneNumber" placeholder="{{'phone-number' | translate}}" >
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email">{{"email" | translate}}</label>
+                            <input type="text" class="form-control" formControlName="email" placeholder="{{'email' | translate}}">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="review">{{"your-message" | translate}}</label>
+                            <textarea class="form-control" formControlName="visitorMessage"  placeholder="{{'your-message' | translate}}"rows="6"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <button class="btn btn-solid" type="submit">{{"send" | translate}}</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Section ends-->

@@ -1,0 +1,22 @@
+﻿[
+  {
+    "Name": "SuperAdmin",
+    "PermissionLevel": 1,
+    "Description": "Default User in App, it has all permissions in the project, it's not deletable"
+  },
+  {
+    "Name": "Admin",
+    "PermissionLevel": 10,
+    "Description": "this user created by SuperAdmin. can be deleted just from SuperAdmin, has all operations except delete another Admin or Delete or update any related things for other admin"
+  },
+  {
+    "Name": "Editor",
+    "PermissionLevel": 20,
+    "Description": "to create Blogs or any info in just in the website"
+  },
+  {
+    "Name": "User",
+    "PermissionLevel": 30,
+    "Description": "Visitor or User who registered in Website"
+  }
+]

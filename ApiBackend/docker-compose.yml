@@ -1,0 +1,50 @@
+version: '3.4'
+
+services:
+  apibackend:
+    image: ${DOCKER_REGISTRY-}apibackend
+    build:
+      context: .
+      dockerfile: ApiBackend/Dockerfile
+    container_name: ProjectsSource
+    environment: 
+        - ASPNETCORE_ENVIRONMENT=Development
+        - IdentityDbServer=database_server 
+        # in docker if use server: localhost, when trying to get data from the app to return an error, 
+        # or if set the server: MySqlServer, the container name, you can't create a migration
+        # for that I change the settings data structure to avoid this problem
+    ports:
+      - 5001:443
+      - 5000:80
+    depends_on:
+      - database_server
+    #restart: always
+    networks:
+            network:
+    
+  # MySql for Linux Hosting
+  database_server:
+    image: "mysql:8.0"
+    container_name: MySqlServer
+    command: ['--default-authentication-plugin=mysql_native_password']
+    environment:
+        #- MYSQL_DATABASE=default_db
+        - MYSQL_ROOT_PASSWORD=rootPass2005
+        - MYSQL_USER=user-name
+        - MYSQL_PASSWORD=userPass2005
+    volumes:
+        - mysqlServer_data:/var/lib/mysql
+    ports:
+        - 3306:3306
+
+    #restart: always
+    networks:
+        network:
+
+  #----------------------------------------------
+
+volumes:
+    mysqlServer_data:
+
+networks:
+    network:  

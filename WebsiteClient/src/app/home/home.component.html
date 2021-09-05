@@ -1,0 +1,181 @@
+<app-header-one [sticky]="true"></app-header-one>
+<!-- Home slider start-->
+<section class="p-0" *ngIf="sliders">
+  <app-slider 
+    [sliders]="sliders" 
+    [textClass]="'text-center'"
+    [category]="''"
+    [buttonText]="'shopNow'"> 
+  </app-slider>
+</section>
+<!-- Home slider End -->
+
+<!-- collection banner start-->
+<section class="pb-0" *ngIf="collections">
+  <div class="container">
+    <div class="row partition2">
+      <div class="col-md-6" *ngFor="let collection of collections">
+        <a style="margin: 10px;" [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'fashion'}">
+          <div class="collection-banner p-right text-center">
+            <img [src]="collection.photoUrl" class="img-fluid" alt="collection-banner">
+            <div class="contain-banner">
+              <div>
+                <h4>{{collection.details}}</h4>
+                <h2>{{collection.title}}</h2>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- collection banner End -->
+
+<!-- furneture Product slider start-->
+<div class="title1 section-t-space">
+  <h4>special offer</h4>
+  <h2 class="title-inner1">top furniture collection</h2>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 offset-lg-3">
+      <div class="product-para">
+        <p class="text-center">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry, 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="section-b-space p-t-0">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <owl-carousel-o class="product-m no-arrow" [options]="ProductSliderConfig">
+          <ng-container *ngFor="let product of products | slice:0:8">
+            <ng-template carouselSlide>
+              <div class="product-box">
+                <app-product-box-one 
+                  [product]="product" 
+                  [currency]="productService?.Currency"
+                  [thumbnail]="true"
+                  [cartModal]="true">
+                </app-product-box-one>
+              </div>
+            </ng-template>
+          </ng-container>
+        </owl-carousel-o>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- furneture Product slider End -->
+
+<!-- foods Product slider start-->
+<div class="title1 section-t-space">
+  <h4>special offer</h4>
+  <h2 class="title-inner1">top foods collection</h2>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 offset-lg-3">
+      <div class="product-para">
+        <p class="text-center">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry, 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="section-b-space p-t-0">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <owl-carousel-o class="product-m no-arrow" [options]="ProductSliderConfig">
+          <ng-container *ngFor="let product of products | slice:0:8">
+            <ng-template carouselSlide>
+              <div class="product-box">
+                <app-product-box-one 
+                  [product]="product" 
+                  [currency]="productService?.Currency"
+                  [thumbnail]="true"
+                  [cartModal]="true">
+                </app-product-box-one>
+              </div>
+            </ng-template>
+          </ng-container>
+        </owl-carousel-o>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- foods Product slider End -->
+
+<!-- Parallax banner start-->
+<section class="p-0" *ngIf="parallaxs">
+  <div class="full-banner parallax-banner1 parallax text-center p-left"
+    [ngStyle]="{'background-image': 'url('+parallax.photoUrl+')'}"  *ngFor="let parallax of parallaxs">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="banner-contain">
+            <h2>{{parallax.details}}</h2>
+            <h3>{{parallax.title}}</h3>
+            <h4>{{parallax.supTitle}}</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Parallax banner End -->
+
+<!-- services start-->
+<div class="container" *ngIf="specilService">
+  <section class="service border-section small-section">
+    <app-services [specilService]="specilService"></app-services>
+  </section>
+</div>
+<!-- services End -->
+
+<!-- blog section start-->
+<section class="blog p-t-0">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="title1 section-t-space">
+          <h4>Recent Story</h4>
+          <h2 class="title-inner1">from the blog</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <app-blog [blogs]="blog"></app-blog>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- blog section End -->
+
+<!--  logo section start-->
+<section class="section-b-space"  *ngIf="ourParents">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <app-logo [logos]="ourParents"></app-logo>
+      </div>
+    </div>
+  </div>
+</section>
+<!--  logo section End-->
+
+<app-newsletter></app-newsletter>
+
+<!-- Cart Open To Right Side-->
+<app-cart-variation [direction]="'right'"></app-cart-variation> 
+<app-footer-one></app-footer-one>
+
